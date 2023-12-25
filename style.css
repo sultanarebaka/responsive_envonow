@@ -15,7 +15,7 @@ font-family: 'Roboto Slab', serif;
  text-align: center;
  background-image: radial-gradient(circle at 95% 0%, #c9d99e 0%, rgba(95, 213, 182, 0) 20%), linear-gradient(to bottom, #c9d99e -10%, rgba(121, 223, 255, 0) 70%), radial-gradient(circle at 95% 0%, rgba(91, 123, 80, 0.7) 0%, rgba(95, 213, 182, 0) 20%);
  
- padding: 37px;
+ padding: 35px;
 
 
 }
@@ -26,35 +26,48 @@ h1{
   color:black;
   width: 100%;
  text-align: center;
-  
+  margin-top: 0px;
   font-size:4.4rem;
   font-weight: 900;
  word-spacing: 5px;
-  margin-top: 0; 
+
   
 }
 @media (max-width: 768px) {
   h1 {
     height: 50px; /* Reduce header height for smaller screens */
     font-size: 30px; /* Reduce font size */
-    
+    margin-top: -16px;
     text-align: center;
+    
   }
 }
+
+
 
 @media (max-width: 768px) {
   img {
     height: 20px; /* Reduce header height for smaller screens */
     width:125px;
     align-items: center;
+  
   }
 }
 
-
 p{
-  margin-top: 30px;
+  margin-top: -10px;
+  font-size: 1.1em;
+  font-weight: 550;
 }
 
+
+@media (max-width: 768px) {
+  p {
+    padding: 53px;
+    align-items: center;
+  
+  }
+}
 
 img
 
