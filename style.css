@@ -55,7 +55,7 @@ h1{
 }
 
 p{
-  margin-top: -10px;
+  margin-top: 0px;
   font-size: 1.1em;
   font-weight: 550;
 }
@@ -63,7 +63,7 @@ p{
 
 @media (max-width: 768px) {
   p {
-    padding: 53px;
+    padding: 26px;
     align-items: center;
   
   }
@@ -71,7 +71,7 @@ p{
 
 img
 
-{ margin-bottom: 25px; }  
+{ padding-bottom: 26px; }  
 
 
 
@@ -92,12 +92,28 @@ input[type="email"] {
 button {
   background-color: #557153;
   color: white;
+  position: absolute;
+  top: 0;
+  border: none;
+  cursor: pointer;
+  bottom: 0;
   padding: 10px 20px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  
+  .em{
+    margin-top: -25px;  
+
+  }
+}
+
+label{
+  position: relative;
+}
 
 
  
