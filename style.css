@@ -76,17 +76,15 @@ img
 
 
 input[type="email"] {
-  padding: 10px;
-  color: red;
-  border: 1px solid #D2E3C8;
-  border-radius: 3px;
+  padding: 10px 76px;
+  color: black;
+  border: 1px solid #829460;
+  padding-left: 15px;
+  border-top-right-radius: .1px;
   margin-bottom: 0px;
 }
 
-.red-email {
-  
-  color: blue;
-}
+
 
 
 button {
@@ -94,13 +92,13 @@ button {
   color: white;
   position: absolute;
   top: 0;
-  border: none;
-  cursor: pointer;
+  font-weight: 540;
+  align-items: left;
+  font-size: 1rem;
   bottom: 0;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+  padding: 6px 12px;
+  border-top-right-radius: 1.9px;
+
 }
 
 @media (max-width: 768px) {
