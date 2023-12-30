@@ -149,29 +149,30 @@ section > p{
 }
 
 
-.container > .image-wrapper > img {
-
-  width: 10%; /* Adjust width as needed */
-  margin: 0 0px; /* Optional spacing between images */
+.container img {
   
+  width: 40%; /* Adjust width as needed */
+  align-items: center;
   justify-content: center; /* Distribute images evenly */
 }
 
 
 .container {
 display: flex;
-margin: 0 10px;
+
 align-items: center;
 justify-content: center;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-gap: 2px; /* Optional spacing */
+  gap: 2px; /* Optional spacing */
 }
 
 
 
-.container img {
-  display: inline-block;
-}
+
+
+
+
+
 
 
 
