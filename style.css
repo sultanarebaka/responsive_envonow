@@ -1,37 +1,131 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito:wght@300&family=Playfair+Display:ital,wght@1,500&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+
+
+body{
+  margin:0;
+  font-family: 'Noto Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+.main-part {
+ text-align: center;
+ background-image: radial-gradient(circle at 95% 0%, #c9d99e 0%, rgba(95, 213, 182, 0) 20%), linear-gradient(to bottom, #c9d99e -10%, rgba(121, 223, 255, 0) 70%), radial-gradient(circle at 95% 0%, rgba(91, 123, 80, 0.7) 0%, rgba(95, 213, 182, 0) 20%);
+ 
+ padding: 35px;
+
+
+}
+  
+
+
+h1{
+  color:black;
+  width: 100%;
+ text-align: center;
+  margin-top: 0px;
+  font-size:4.4rem;
+  font-weight: 900;
+ word-spacing: 5px;
+
+  
+}
+@media (max-width: 768px) {
+  h1 {
+    height: 50px; /* Reduce header height for smaller screens */
+    font-size: 30px; /* Reduce font size */
+    margin-top: -16px;
+    text-align: center;
+    
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  img {
+    height: 20px; /* Reduce header height for smaller screens */
+    width:125px;
+    align-items: center;
+  
+  }
+}
+
+p{
+  margin-top: 0px;
+  font-size: 1.1em;
+  font-weight: 550;
+}
+
+
+@media (max-width: 768px) {
+  p {
+    padding: 26px;
+    align-items: center;
+  
+  }
+}
+
+img
+
+{ padding-bottom: 26px; }  
+
+
+
 
 
 #subscribe-form {
   
     
-    margin: 0 auto; /* Centers the form horizontally */
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; 
-  
-    place-items: center; 
-  
+  margin: 0 auto; /* Centers the form horizontally */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+
+  place-items: center; 
 
 
 
 
 
- 
-  
+
+
+
 }
 #email {
-  /* Set width, padding, border, font size, etc. */
-  padding: 8px 15px;
-  border: 1px solid #ccc;
-  border-top-right-radius: none;
-  font-size: 1em;
+
+padding: 8px 40px;
+padding-left: 21px;
+text-decoration-color: red;
+border-top-right-radius: none;
+border: 1px solid #829460;
+font-size: 1em;
 }
+
+
 button {
-  /* Set background color, text color, border, font size, etc. */
-  background-color: #4CAF50; /* Green background */
-  color: white;
-  text-decoration-color: blue;
-  padding: 9px ;
-  border: none;
-  font-size: 1em;
+
+background-color: #557153; /* Green background */
+color: white;
+border-top-right-radius: 2.2px;
+padding: 7.3px 11px;
+font-family: "roboto slab", sans-serif;
+border: none;
+font-size: 1em;
+}
+ 
+@media (max-width: 768px) {
+  #subscribe-form{
+    margin-top: -20px;
+  
+  }
+}
+@media (max-width: 768px) {
+  button{
+    padding: 7.6px 11px;
+  
+  }
 }

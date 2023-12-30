@@ -4,7 +4,7 @@ const subscribeButton = document.getElementById("subscribe-button");
 
 subscribeButton.addEventListener("click", (event) => {
   const email = emailInput.value;
-  // Validate email format
+  
   if (!validateEmail(email)) {
     event.preventDefault(); // Prevent form submission
     // Display error message
@@ -17,7 +17,7 @@ subscribeButton.addEventListener("click", (event) => {
 document.getElementById("subscribe-form").addEventListener("submit", (event) => {
   event.preventDefault();
 
-  // ...
+  
 });
 
 
