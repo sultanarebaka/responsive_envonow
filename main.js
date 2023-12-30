@@ -29,3 +29,11 @@ if (!validateEmail(email)) {
 } else {
   // Proceed with subscription
 }
+
+
+
+
+
+
+
+

@@ -154,6 +154,12 @@ section > p{
   width: 40%; /* Adjust width as needed */
   align-items: center;
   justify-content: center; /* Distribute images evenly */
+
+}
+
+.image-wrapper-1{
+
+  margin-right: 1px;
 }
 
 
@@ -165,9 +171,9 @@ justify-content: center;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
   gap: 2px; /* Optional spacing */
 }
-
-
-
+.container img:last-child {
+  margin-right: 0; /* Remove margin for the last image */
+}
 
 
 
