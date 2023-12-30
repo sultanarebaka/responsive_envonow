@@ -75,45 +75,29 @@ img
 
 
 
-input[type="email"] {
-  padding: 10px 76px;
-  color: black;
-  border: 1px solid #829460;
-  padding-left: 15px;
-  border-top-right-radius: .1px;
-  margin-bottom: 0px;
+
+
+.email-subscribe {
+  display: flex; /* Arrange elements horizontally */
+  align-items: center;
+  padding-right: 120px; /* Align elements vertically */
 }
 
-
-
+input[type="email"] {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-top-right-radius: none;
+  margin-right: 0px; /* Add some space between elements */
+}
 
 button {
-  background-color: #557153;
+  background-color: #4CAF50; /* Green background */
   color: white;
-  position: absolute;
-  top: 0;
-  font-weight: 540;
-  align-items: left;
-  font-size: 1rem;
-  bottom: 0;
-  padding: 6px 12px;
-  border-top-right-radius: 1.9px;
-
+  padding: 9px 15px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
 }
-
-@media (max-width: 768px) {
-  
-  .em{
-    margin-top: -25px;  
-
-  }
-}
-
-label{
-  position: relative;
-}
-
-
  
 
 
