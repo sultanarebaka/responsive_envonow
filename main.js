@@ -1,14 +1,31 @@
-// Example: Add validation and submit functionality
-const emailInput = document.querySelector("input[type='email']");
-const subscribeButton = document.querySelector("button");
 
-subscribeButton.addEventListener("click", () => {
+const emailInput = document.getElementById("email");
+const subscribeButton = document.getElementById("subscribe-button");
+
+subscribeButton.addEventListener("click", (event) => {
   const email = emailInput.value;
-  if (validateEmail(email)) {
-    // Submit subscription request (replace with your actual logic)
-    console.log("Subscribed with email:", email);
+  // Validate email format
+  if (!validateEmail(email)) {
+    event.preventDefault(); // Prevent form submission
+    // Display error message
   } else {
-    alert("Please enter a valid email address.");
+    // Submit form or handle subscription logic
   }
 });
-You sent
+
+
+document.getElementById("subscribe-form").addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  // ...
+});
+
+
+
+const email = emailInput.value;
+
+if (!validateEmail(email)) {
+  // Display error message
+} else {
+  // Proceed with subscription
+}
