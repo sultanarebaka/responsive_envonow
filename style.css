@@ -207,21 +207,26 @@ justify-content: center;
   }
 }
 
-.form-container h3{
- font-size: 2.1em;
- padding-top: 60px;
- 
+.form-container  .container-credle {
+ font-size: 1.9em;
+ padding-top: 107px;
+ padding-left: 250px;
+ word-spacing: normal;
+
 
 }
 
-.form-container p{
-  margin-top: 0px;
-
+.form-container .container-credle p{
+  font-size: .5em;
+  margin-top: -30px;
 }
 
 .form-container img{
-  float:right;
+  padding-left: 110px;
 
+}
+.form-container{
+  display: flex;
 }
 
 
