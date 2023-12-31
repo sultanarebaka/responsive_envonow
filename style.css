@@ -176,7 +176,7 @@ justify-content: center;
 }
 
 .container .news-image  p{
-  margin: 40px;
+  margin: 0px;
 
 }
 
@@ -205,6 +205,23 @@ justify-content: center;
   width:40%;
 
   }
+}
+
+.form-container h3{
+ font-size: 2.1em;
+ padding-top: 60px;
+ 
+
+}
+
+.form-container p{
+  margin-top: 0px;
+
+}
+
+.form-container img{
+  float:right;
+
 }
 
 
