@@ -191,19 +191,20 @@ justify-content: center;
 @media (max-width: 768px) {
   .container .image-wrapper  {
       display: flex;
+      position: relative;
       align-items: center;
       flex-direction: column;
-        width:40%;
+      
         
          /* Optional spacing */
 
   }
 }
 @media (max-width: 768px) {
-  .container img  {
+  .container .news-image {
       max-width: 100%;
-      width: 90%;
-      height: auto;
+      width: 80%;
+      height: 150px;
       
     
     
@@ -212,9 +213,12 @@ justify-content: center;
 }
 
 @media (max-width: 768px) {
-  .news-image  {
+  .container .events-pic {
+    max-width: 100%;
+    width: 80%;
+    height: 150px;
+    margin-top: -30px;
     
-      position: relative;
       
     
     
@@ -222,13 +226,24 @@ justify-content: center;
 
   }
 }
+
+@media (max-width: 768px) {
+ .container .data-pic{
+  max-width: 100%;
+  width: 80%;
+  height: 150px;
+  margin-top: 24px;
+         
+
+  }
+}
+
 
 @media (max-width: 768px) {
   .news-image h3 {
     
       position: absolute;
-      margin-top: 50px; /* Adjust as needed */
-    
+      top:50px;   
     
     
     
