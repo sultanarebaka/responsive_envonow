@@ -201,11 +201,42 @@ justify-content: center;
 }
 @media (max-width: 768px) {
   .container img  {
+      max-width: 100%;
+      width: 90%;
+      height: auto;
+      
     
-  width:40%;
+    
 
   }
 }
+
+@media (max-width: 768px) {
+  .news-image  {
+    
+      position: relative;
+      
+    
+    
+    
+
+  }
+}
+
+@media (max-width: 768px) {
+  .news-image h3 {
+    
+      position: absolute;
+      margin-top: 50px; /* Adjust as needed */
+    
+    
+    
+    
+
+  }
+}
+
+
 
 .form-container  .container-credle {
  font-size: 1.9em;
