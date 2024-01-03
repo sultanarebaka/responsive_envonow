@@ -116,19 +116,64 @@ font-family: "roboto slab", sans-serif;
 border: none;
 font-size: 1em;
 }
+
+button:hover {
+  background-color: #4E6C50; 
+  cursor: pointer
+}
  
 @media (max-width: 768px) {
   #subscribe-form{
     margin-top: -20px;
+    margin: 0 auto; /* Centers the form horizontally */
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
   
+    place-items: center; 
+  
+  }
+}
+
+@media (max-width: 768px) {
+  #email{
+    padding: 6.5px 5px;
+    padding-left: 16px;
+    border-top-right-radius: none;
+border: 1px solid #829460;
+font-size: .9em;
+  
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  button{
+    padding: 7.5px 9px;
+    width: 20%;
+    height:5%;
+  
+    background-color: #557153; /* Green background */
+    color: white;
+    border-top-right-radius: 1.5px;
+    
+    font-family: "roboto slab", sans-serif;
+    border: none;
+    font-size: .8em;
   }
 }
 @media (max-width: 768px) {
-  button{
-    padding: 7.6px 11px;
-  
-  }
+  button:hover {
+  background-color: #4E6C50; 
+  cursor: pointer;
 }
+
+}
+
+
+
+
 
 section > p{
   padding: 32px;
