@@ -286,7 +286,7 @@ justify-content: center;
 
 @media (max-width: 768px) {
   .news-image h3 {
-    
+     font-size: 0em;
       position: absolute;
       top:50px;   
     
@@ -298,27 +298,35 @@ justify-content: center;
 
 
 
-.form-container  .container-credle {
- font-size: 1.9em;
- padding-top: 107px;
- padding-left: 250px;
+.form-container  .container-credle h3 {
+ font-size: 2.1em;
+ padding-top: 187px;
+ padding-left: 220px;
  word-spacing: normal;
 
 
 }
 
 .form-container .container-credle p{
-  font-size: .5em;
-  margin-top: -30px;
+  font-size: 1em;
+  font-weight: 500;
+  padding-left: 220px;
+  margin-top: -19px;
 }
 
 .form-container img{
-  padding-left: 110px;
+  padding-left: 17px;
 
 }
 .form-container{
   display: flex;
+  background-color: #F1FCFC;
 }
 
+.container-credle{
+  padding-right: 70px;
+}
 
-
+.sources-pc{
+  padding-top: 70px;
+}
