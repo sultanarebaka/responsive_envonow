@@ -191,6 +191,7 @@ section > p{
 
 .content{
   font-size: 2.6em;
+  
 }
 
 
@@ -210,7 +211,7 @@ section > p{
 
 .container {
 display: flex;
-
+background-color: #f6fffb;
 align-items: center;
 justify-content: center;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
@@ -320,7 +321,7 @@ justify-content: center;
 }
 .form-container{
   display: flex;
-  background-color: #F1FCFC;
+  background-color: #f6fffb;
 }
 
 .container-credle{
