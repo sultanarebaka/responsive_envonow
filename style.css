@@ -217,6 +217,7 @@ align-items: center;
 
 justify-content: center;
 
+
 }
 .container img:last-child {
   margin-right: 0; /* Remove margin for the last image */
@@ -295,6 +296,31 @@ justify-content: center;
     
     
 
+  }
+}
+
+ @media (max-width: 768px) {
+  .form-container .container-credle h3{
+    
+    margin-left: -140px;
+    margin-bottom: -17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sources-pc{
+    
+    width:270px;
+    height:270px;
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .form-container .container-credle p{
+    
+    margin-left: -140px;
+  
   }
 }
 
