@@ -211,12 +211,12 @@ section > p{
 
 .container {
 display: flex;
-background-color: #f6fffb;
+padding-bottom: 180px;
+
 align-items: center;
 
 justify-content: center;
-border-top-right-radius: 90px;
-border-color: red;
+
 }
 .container img:last-child {
   margin-right: 0; /* Remove margin for the last image */
