@@ -211,7 +211,7 @@ section > p{
 
 .container {
 display: flex;
-padding-bottom: 180px;
+padding-bottom: 110px;
 
 align-items: center;
 
@@ -322,7 +322,7 @@ justify-content: center;
 }
 .form-container{
   display: flex;
-  background-color: #f6fffb;
+  background-color:#f6fff8;
 
 }
 
